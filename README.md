@@ -19,5 +19,7 @@ Para la función demodulador se crean producto_I, producto_Q, Ep_I y Ep_Q cumple
 Finalmente se le brinda la frecuencia de la portadora (en este caso se asigna 5kHz), el número de muestras por periodo (20) y la relación señal ruido (SNR) que en este caso se le asignó un valor de 0, lo que quiere decir que la potencia de la señal y la potencia del ruido son iguales, según la fórmula vista. Las imágenes transmitida y recibida fueron las siguientes, con un total de al rededor de 500 errores para un SNR=0.
 ![Imgur](https://i.imgur.com/oJc7cls.png)  
 Las señales obtenidas fueron las siguientes, la lima corresponde a la señal modulada por QPSK, la azul corresponde a la señal Tx + ruido y la color oro corresponde la señal demodulada.
-![Imgur](https://i.imgur.com/A9KX8xV.png)
+![Imgur](https://i.imgur.com/A9KX8xV.png)  
+En las pruebas de estacionaridad y ergodicidad a la señal modulada senal_Tx se crea un algoritmo que nos brinde los resultados esperados según la teoría y la nota teórica del proyecto para la señal modulada por QPSK, en resumen, se obtienen todas las posibles combinaciones según los valores que puede tomar A (1 y -1) y para todos los tiempos del muestreo, estos valores se guardan en una matriz llamada X_t, se grafican y se obtienen los valores teóricos y esperados, para la media se obtiene el siguiente gráfico.
+![Imgur](https://i.imgur.com/K9G5O0A.png)
 
