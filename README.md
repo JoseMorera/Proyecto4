@@ -3,7 +3,7 @@
 #### IE0405 - Modelos Probabilísticos de Señales y Sistemas
 
 Segundo semestre del 2020  
-Laboratorio 4
+Proyecto 4
 
 ---
 
