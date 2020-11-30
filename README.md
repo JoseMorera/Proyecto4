@@ -18,10 +18,6 @@ Para la siguiente función, canal_ruidoso, se recibe la señal senal_Tx, la pote
 Para la función demodulador se crean producto_I, producto_Q, Ep_I y Ep_Q cumplen con funciones casi idéticas a las que se tenían en el P4.ipynb base, en el criterio de decisión por detección de energía se crean dos if y dos for, uno para I y otro para Q.  
 Finalmente se le brinda la frecuencia de la portadora (en este caso se asigna 5kHz), el número de muestras por periodo (20) y la relación señal ruido (SNR) que en este caso se le asignó un valor de 0, lo que quiere decir que la potencia de la señal y la potencia del ruido son iguales, según la fórmula vista. Las imágenes transmitida y recibida fueron las siguientes, con un total de al rededor de 500 errores para un SNR=0.
 ![Imgur](https://i.imgur.com/oJc7cls.png)
-
-
-
-
-
+Las señales obtenidas fueron las siguientes, la lima corresponde a la señal modulada por QPSK, la azul corresponde a la señal Tx + ruido y la color oro corresponde la señal demodulada.
 ![Imgur](https://i.imgur.com/A9KX8xV.png)
 
