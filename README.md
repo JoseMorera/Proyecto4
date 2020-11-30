@@ -12,4 +12,4 @@ Proyecto 4
 * Grupo: **1**
 ---
 #### Documente la solución 
-hola
+Para la primera parte de las asignaciones, se llevó a cabo una simulación del sistema de comunicaciones utilizando una modulación QPSK, para esto, se tomó como base el archivo P4.ipynb brindado por el profesor 
